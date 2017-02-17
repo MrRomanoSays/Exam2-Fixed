@@ -21,6 +21,3 @@ const { map, filter, reduce, compose, take, contains } = require('ramda')
   )(data.hourly_forecast)
 
 console.log("When will it snow?", result)
-
-
-//filter(o=>contains("rain", o.condition.toLowerCase())),
